@@ -21,19 +21,21 @@ ___
 ### Instructions
 Download the R Script run_analysis.R from the repo. Load it into your R and run the script. Error will occur if it is not able to find the files in the directory 'UCI HAR Dataset'. The script will write 2 tab delimited text files to the working directory. 
 
-___
-### CodeBook.md 
-Code Book of Assignment detailing the data, transformation and variables in the tidy data set. Source data is not explained, refer to source site for detail explanation on the data source.
+Refer to section below on the run_analysis.R script. The transformation steps are detailed in the CodeBook.md file. 
 
 ___
 ### run_analysis.R 
-R Script reads the source files, transform them and write 2 files to the working directory. During runtime, messages is written to the screen indicating the stage of processing. 
+R Script reads the source files, transform them and write 2 files to the working directory. During runtime, messages is written to the screen indicating the stage of processing.  
 
 - Loading all the data files
 - Processing data files
 - Files will be written to <work dir>
 - Writing W3Assignment_Merged_Data_All.txt
 - Writing W3Assignment_Mean_Data_bySubjectActivity.txt
+
+___
+### CodeBook.md 
+Code Book of Assignment detailing the data, transformation and variables in the tidy data set. Source data is not explained, refer to source site for detail explanation on the data source.
 
 ___
 ### W3Assignment_Merged_Data_All.txt
